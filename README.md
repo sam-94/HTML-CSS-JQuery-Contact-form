@@ -23,8 +23,8 @@
 ##### Create the menu in your HTML:
 ```
     <main>
-		    <form name="contact form" id="contact" method="post" class="contact-form">
-			     <input id="first_name" class="form-wrap" type="text" name="First_name" placeholder="First Name" />
+       <form name="contact form" id="contact" method="post" class="contact-form">
+	    <input id="first_name" class="form-wrap" type="text" name="First_name" placeholder="First Name" />
            <input id="last_name" class="form-wrap" type="text" name="Last_name" placeholder="Last Name" />
            <input id="email" class='form-wrap' type="email" name="Email" placeholder="Email Address"/>
            <textarea id="message" class="form-wrap" name="Message" placeholder="Message"></textarea>
