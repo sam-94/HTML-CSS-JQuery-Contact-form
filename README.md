@@ -20,7 +20,11 @@
 ```
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 ```
-##### Create the menu in your HTML:
+##### Add main.js before closing body tag & after jQuery:
+```
+<script src="main.js"></script>
+```
+##### Create the form in your HTML:
 ```
     <main>
        <form name="contact form" id="contact" method="post" class="contact-form">
@@ -32,5 +36,6 @@
         </form>
     </main>
   ```
+  
 ## Support:
 If you need help using Our Menu, have a suggestion or idea, or have found a bug, please create an issue.
