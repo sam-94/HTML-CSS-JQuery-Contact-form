@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+@font-face { font-family: 'Roboto-Regular'; src: url('fonts/Roboto-Regular.eot?#iefix')
+format('embedded-opentype'), url('fonts/Roboto-Regular.woff') format('woff'),
+url('fonts/Roboto-Regular.ttf') format('truetype'), url('fonts/Roboto-Regular.svg#Roboto-Regular')
+format('svg'); font-weight: normal; font-style: normal; }
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	font-family: Roboto-Regular;
+	color: #000;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+a:focus, button::-moz-focus-inner{
+	outline: 0;
+  border: 0;
+}
+button:focus {
+  outline: 0;
+}
+main {
+    background-color: #fbfbfb;
+	padding: 70px 0;
+	box-shadow: 0px 5px 15px rgba(204, 204, 204, 0.51); 
+	width: 70%;
+}
+.contact-form {
+	text-align: center;
+	position: relative;
+	width: 100%;
+    max-width: 589px;
+    margin: 0 auto;
+}
+.contact-form input {
+	margin: 10px 0;
+	font-size: 17px;
+}
+textarea {
+	resize: none;
+	font-size: 17px;
+}
+.contact-form .form-wrap {
+	display: block;
+	padding: 12px 0;
+	padding-left: 8px;
+	width: 100%;
+	max-width: 582px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 0;
+    background: none;
+    border-bottom: 1px solid #9c9c9c;
+}
+.contact-form .form-wrap:focus {
+	border-color: #66afe9;
+	outline: 0;
+}
+.submit-btn {
+    border: none;
+    outline: none;
+    background: #f8b112;
+    color: #fff;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.error {
+  color: red;
+  margin-left: 5px;
+  position: absolute;
+  right: 0;
+  font-size: 13px;
+}
+.first-name-error {
+	top: 20px;
+}
+.last-name-error {
+  top: 77px;
+}
+.email-error {
+  top: 137px;
+}
+.message-error {
+  top: 220px;
+}
+.submit-error {
+    display: block;
+    color: red;
+    font-size: 14px;
+}
+.submit-success {
+    display: block;
+    color: green;
+    font-size: 14px;
+}
+@media (min-width: 768px) and (max-width: 991px)  {
+	.contact-form {
+    max-width: 450px;
+}
+}
+@media (min-width: 481px) and (max-width: 767px)  {
+	.contact-form {
+    max-width: 290px;
+}
+}
+@media (max-width: 480px) {
+	main {
+		width: 80%;
+	}
+	.contact-form {
+		max-width: 225px;
+	}
+	.contact-form input, .contact-form textarea {
+    font-size: 12px;
+}
+.submit-error, .submit-success {
+    font-size: 12px;
+}
+.email-error {
+    top: 131px;
+}
+.message-error {
+    top: 200px;
+}
+}
