@@ -1,6 +1,6 @@
 # HTML-CSS-jQuery-Contact-form
 
-[Demo](http://sam-94.github.io/HTML-CSS-jQuery-Contact-form)
+
 
 ## Browser Support:
 (Tested on following browsers and confirmed that the Form is working.)
