@@ -19,12 +19,9 @@ body {
 	justify-content: center;
 	height: 100vh;
 }
-a:focus, button::-moz-focus-inner{
-	outline: 0;
-  border: 0;
-}
-button:focus {
+a:focus, input::-moz-focus-inner{
   outline: 0;
+  border: 0;
 }
 main {
     background-color: #fbfbfb;
